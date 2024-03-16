@@ -1,0 +1,383 @@
+db.createCollection('usuarios');
+
+db.usuarios.insertOne(
+    {
+        nombres:"David",
+        apellidos:"Herrera",
+        correo:"david@gmail.com",
+        ciudad:"Medellin",
+        pais:"Colombia",
+        salario:2500,
+        edad: 23,
+        altura:1.70,
+        peso: 62.5
+    }
+)
+
+db.usuarios.insertMany([
+
+    {nombres:"Daniela",
+    apellidos:"Lopez",
+    correo:"daniela@gmail.com",
+    ciudad:"Madrid",
+    pais:"España",
+    salario:2500,
+    edad: 25,
+    altura:1.72,
+    peso: 62
+    },
+    {nombres:"Franchesco",
+    apellidos:"Lolliny",
+    correo:"franches@gmail.com",
+    ciudad:"",
+    pais:"Italia",
+    salario:2500,
+    edad: 25,
+    altura:1.72,
+    peso: 62
+    },
+        {
+            nombres: "David",
+            apellidos: "Herrera",
+            correo: "david@gmail.com",
+            ciudad: "Madrid",
+            pais: "España",
+            salario: 2500,
+            edad: 23,
+            altura: 1.70,
+            peso: 62.5
+        },
+        {
+            nombres: "Maria",
+            apellidos: "Garcia",
+            correo: "maria@hotmail.com",
+            ciudad: "New York",
+            pais: "Estados Unidos",
+            salario: 3000,
+            edad: 28,
+            altura: 1.65,
+            peso: 55.0
+        },
+        {
+            nombres: "James",
+            apellidos: "Smith",
+            correo: "james@yahoo.com",
+            ciudad: "Sydney",
+            pais: "Australia",
+            salario: 4000,
+            edad: 30,
+            altura: 1.80,
+            peso: 70.0
+        },
+        {
+            nombres: "Emma",
+            apellidos: "Dubois",
+            correo: "emma@gmail.com",
+            ciudad: "París",
+            pais: "Francia",
+            salario: 3500,
+            edad: 25,
+            altura: 1.68,
+            peso: 60.0
+        },
+        {
+            nombres: "Lucas",
+            apellidos: "Silva",
+            correo: "lucas@hotmail.com",
+            ciudad: "Río de Janeiro",
+            pais: "Brasil",
+            salario: 2800,
+            edad: 32,
+            altura: 1.75,
+            peso: 68.0
+        },
+        {
+            nombres: "Elena",
+            apellidos: "Ramos",
+            correo: "elena@yahoo.com",
+            ciudad: "Buenos Aires",
+            pais: "Argentina",
+            salario: 2600,
+            edad: 22,
+            altura: 1.62,
+            peso: 58.0
+        },
+        {
+            nombres: "Max",
+            apellidos: "Schneider",
+            correo: "max@gmail.com",
+            ciudad: "Berlín",
+            pais: "Alemania",
+            salario: 3800,
+            edad: 35,
+            altura: 1.78,
+            peso: 72.0
+        },
+        {
+            nombres: "Sophie",
+            apellidos: "Lefèvre",
+            correo: "sophie@hotmail.com",
+            ciudad: "Montreal",
+            pais: "Canadá",
+            salario: 4200,
+            edad: 27,
+            altura: 1.70,
+            peso: 63.0
+        },
+        {
+            nombres: "Giuseppe",
+            apellidos: "Conti",
+            correo: "giuseppe@yahoo.com",
+            ciudad: "Roma",
+            pais: "Italia",
+            salario: 3200,
+            edad: 29,
+            altura: 1.75,
+            peso: 70.0
+        },
+        {
+            nombres: "Hannah",
+            apellidos: "Baker",
+            correo: "hannah@gmail.com",
+            ciudad: "Londres",
+            pais: "Reino Unido",
+            salario: 2700,
+            edad: 31,
+            altura: 1.68,
+            peso: 58.0
+        },
+        {
+            nombres: "Lucía",
+            apellidos: "Gutiérrez",
+            correo: "lucia@hotmail.com",
+            ciudad: "Santiago",
+            pais: "Chile",
+            salario: 2900,
+            edad: 26,
+            altura: 1.65,
+            peso: 55.0
+        },
+        {
+            nombres: "Rohan",
+            apellidos: "Patel",
+            correo: "rohan@gmail.com",
+            ciudad: "Mumbai",
+            pais: "India",
+            salario: 3500,
+            edad: 33,
+            altura: 1.72,
+            peso: 65.0
+        },
+        {
+            nombres: "Julia",
+            apellidos: "Santos",
+            correo: "julia@yahoo.com",
+            ciudad: "São Paulo",
+            pais: "Brasil",
+            salario: 2400,
+            edad: 24,
+            altura: 1.60,
+            peso: 50.0
+        },
+        {
+            nombres: "Marco",
+            apellidos: "Rossi",
+            correo: "marco@gmail.com",
+            ciudad: "Milán",
+            pais: "Italia",
+            salario: 3100,
+            edad: 34,
+            altura: 1.75,
+            peso: 72.0
+        },
+        {
+            nombres: "Emily",
+            apellidos: "Johnson",
+            correo: "emily@hotmail.com",
+            ciudad: "Toronto",
+            pais: "Canadá",
+            salario: 3800,
+            edad: 29,
+            altura: 1.68,
+            peso: 60.0
+        },
+        {
+            nombres: "Javier",
+            apellidos: "Hernández",
+            correo: "javier@yahoo.com",
+            ciudad: "Buenos Aires",
+            pais: "Argentina",
+            salario: 2600,
+            edad: 27,
+            altura: 1.70,
+            peso: 65.0
+        },
+        {
+            nombres: "Liam",
+            apellidos: "Smith",
+            correo: "liam@gmail.com",
+            ciudad: "Dublín",
+            pais: "Irlanda",
+            salario: 3200,
+            edad: 32,
+            altura: 1.75,
+            peso: 70.0
+        },
+        {
+            nombres: "Ava",
+            apellidos: "Brown",
+            correo: "ava@hotmail.com",
+            ciudad: "Toronto",
+            pais: "Canadá",
+            salario: 3000,
+            edad: 28,
+            altura: 1.65,
+            peso: 60.0
+        }
+    
+
+    ]);
+
+
+db.usuarios.find();
+db.usuarios.find({edad: {$gt: 18}});
+db.usuarios.find({
+    $or:[
+        {ciudad: "Londres"},
+        {ciudad: "Paris"}
+    ]
+});
+db.usuarios.find({
+    $and:[
+        {salario: {$gt: 2000}},
+        {edad: {$gt:30}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:"España"},
+        {salario: {$gte: 3000}}
+    ]
+});
+db.usuarios.find({ "edad": { $gte: 25, $lte: 35 } });
+db.usuarios.find({edad: {$in:[25, 35]}});
+
+db.usuarios.find({pais:{$ne:"Estados Unidos"}});
+
+db.usuarios.find({
+    $and:[
+        {ciudad: "Londres", salario: {$gt:2500}},
+        {edad :{$gt: 30}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais: "Australia"} ,
+        {peso: {$gte:70}}
+    ]
+});
+
+db.usuarios.find({ciudad:{$nin:["Londres", "Paris"]}});
+
+db.usuarios.find({
+    $or:[
+        {salario: {$lt: 2000}} ,
+        {edad: {$gt:40}}
+    ]
+});
+
+db.usuarios.find({
+    $or:[
+        {pais:"Canada", salario:{$gt: 4000}},
+        {altura: {$gt:1.80}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:"Italia"},
+        {edad: {$gte: 20, $lt: 30}}
+    ]
+});
+
+db.usuarios.find({
+    correo:{$exists: false}
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:"Francia"},
+        {salario:{$gte:3000, $lte:5000}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:"Brazil"},
+        {
+        $or:[
+            {peso:{$lt:60 }},
+            {peso:{$gt:70}}
+        ]
+    }
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {
+        $or:[
+            {pais:"Argentina"},
+            {pais:"Chile"}
+        ]
+    },
+        {edad:{$lt: 25}}
+    ]
+});
+
+
+db.usuarios.find({
+    $and:[
+        {pais:{$nin:["España","Mexico"]}},
+        {salario:{$lt: 3000}}
+
+    ]
+});
+
+db.usuarios.find({
+    $or:[
+        {$and:[
+            {pais:"Alemania"},
+            {salario:{$lt: 40000}}
+        ]},
+        {edad:{$gt:35}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:{$ne:"Colombia"}},
+        {altura:{$lt:1.70}}
+    ]
+});
+
+db.usuarios.find({
+    $and:[
+        {pais:"India"},
+        {salario:{$exists: false}}
+    ]
+});
+
+
+
+
+
+
+
+
+
+
+
+
